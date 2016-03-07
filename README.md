@@ -11,8 +11,8 @@ $.sideSlip({
             //作用点btn父元素(一般是fix在页面顶部)
             actionBtnParent: $('header'),
             
-            //类目数据对象(具体形如: {urlInfoArr:[***]} )
-            content: urlListObj,
+            //类目数据对象
+            content: {urlInfoArr:[***]},
             
             //作用点btn位置(left or right),决定展开类目动画是从左或从右开始
             categorySide: 'left',
