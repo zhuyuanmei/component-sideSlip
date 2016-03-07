@@ -8,7 +8,7 @@ $.sideSlip({
             //作用点btn元素(点击能出现类目的按钮)
             actionBtn: $('#J_SideSlipBtn'),
             
-            //作用点btn父元素(一般是fix在页面顶部)
+            //作用点btn父元素(一般是fix在页面顶部的内容区)
             actionBtnParent: $('header'),
             
             //类目数据对象
