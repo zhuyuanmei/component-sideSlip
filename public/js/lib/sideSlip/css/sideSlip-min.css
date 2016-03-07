@@ -1,0 +1,19 @@
+@charset "utf-8";
+.rDialog{position:fixed;background:#EEE}
+.rDialog-wrap{position:relative}
+.rDialog-content{font-size:14px;overflow:hidden;text-align:center}
+.rDialog-mask{position:fixed;left:0;top:0;width:100%;height:100%;background:#000;opacity:0}
+.medical-preview li{border-bottom:1px solid #DADADA;background:#EEE}
+.medical-preview li.current{background:#fff}
+.medical-preview li a{display:block;color:#373737}
+.medical-preview li.current a{color:#94C43A}
+.medical-preview li div{padding-left:25px;height:35px;line-height:35px;text-align:left;font-size:14px;font-weight:bold}
+.medical-preview #wrapper {position:absolute;top:0;left:0;width:100%;overflow:hidden}
+.medical-preview #scroller{position:relative;float:left;width:100%;padding:0}
+.medical-preview #scroller ul{position:relative;width:100%;text-align:left}
+.slideContent1{left:-240px;-webkit-transition:left 0.5s ease 0.3s}
+.slideContent2 {left:0;-webkit-transition:left 0.5s}
+.slideContent3{right:-240px;-webkit-transition:right 0.5s ease 0.3s}
+.slideContent4 {right:0;-webkit-transition:right 0.5s}
+.slidePreview1 {opacity:0.7;-webkit-transition:opacity 0.3s ease 0.5s}
+.slidePreview2 {opacity:0;-webkit-transition:opacity 0.3s}
